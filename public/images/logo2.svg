@@ -1,0 +1,20 @@
+<svg width="300" height="70" viewBox="0 0 300 70" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Hipoteca Venezolanos logo">
+  <!-- Icono: casa con llave -->
+  <g transform="translate(8,7)">
+    <!-- Casa contorno rojo -->
+    <polygon points="27,2 52,20 52,54 2,54 2,20" fill="none" stroke="#CF142B" stroke-width="3.5" stroke-linejoin="round"/>
+    <!-- Tejado sutil -->
+    <polygon points="27,2 52,20 2,20" fill="#CF142B" opacity="0.10"/>
+    <!-- Llave dorada -->
+    <circle cx="27" cy="33" r="8" fill="none" stroke="#FFD700" stroke-width="3"/>
+    <circle cx="27" cy="33" r="3" fill="#FFD700"/>
+    <rect x="32" y="31" width="14" height="3.5" rx="1.5" fill="#FFD700"/>
+    <rect x="43" y="34.5" width="3.5" height="5" rx="1" fill="#FFD700"/>
+    <rect x="38" y="34.5" width="3.5" height="4" rx="1" fill="#FFD700"/>
+  </g>
+  <!-- Texto -->
+  <text x="72" y="28" font-family="'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="-0.3" fill="#ffffff">HIPOTECA</text>
+  <text x="72" y="52" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="800" letter-spacing="-0.5" fill="#CF142B">VENEZOLANOS</text>
+  <!-- Subrayado dorado -->
+  <rect x="72" y="57" width="148" height="3" rx="1.5" fill="#FFD700"/>
+</svg>
