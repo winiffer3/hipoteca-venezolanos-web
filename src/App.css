@@ -1,0 +1,82 @@
+/* ── HEADER ── */
+header {
+  background: var(--dark);
+  padding: 0.8rem 2rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 215, 0, 0.15);
+}
+
+#header-logo {
+  height: 44px;
+  display: block;
+} 
+
+/* ── NAVBAR ── */
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(10, 15, 25, 0.95);
+  backdrop-filter: blur(12px);
+  padding: 0.8rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border-bottom: 1px solid rgba(255, 215, 0, 0.1);
+}
+
+#nav-links {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+#nav-links a {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.9rem;
+  transition: color 0.2s;
+}
+
+#nav-links a:hover {
+  color: var(--bg);
+}
+
+#nav-cta {
+  background: var(--red);
+  color: var(--bg);
+  padding: 0.5rem 1.1rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.88rem;
+}
+
+#nav-cta:hover {
+  background: rgba(176, 16, 32, 1);
+  opacity: 1;
+}
+
+/* ── FOOTER ── */
+footer {
+  background: rgba(6, 10, 18);
+  padding: 1.2rem 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  margin-top: auto;
+}
+
+footer span {
+  font-size: 0.78rem;
+  color: rgba(255, 255, 255, 0.38);
+}
+
+#footer-copy {
+  width: 100%;
+  text-align: center;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.25);
+  margin-top: 0.5rem;
+}

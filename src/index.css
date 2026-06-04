@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap');
+
+:root {
+  --red: #CF142B;
+  --gold: #FFD700;
+  --dark: #0a0f1a;
+  --dark2: #1a1a2e;
+  --text: #5a5a6a;
+  --text-h: #12111a;
+  --bg: #ffffff;
+  --bg2: #f7f7fb;
+  --border: #e8e8f0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--text);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h2, h3 {
+  font-family: 'Sora', system-ui, sans-serif;
+  margin: 0;
+  color: var(--text-h);
+}
+
+p { margin: 0; }
+
+a { text-decoration: none; transition: opacity 0.2s; }
