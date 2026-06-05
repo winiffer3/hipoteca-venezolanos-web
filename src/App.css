@@ -56,6 +56,112 @@ nav {
   opacity: 1;
 }
 
+/* ── HERO ── */
+#hero {
+  position: relative;
+  min-height: 640px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-image: url('/images/saltoAngel.jpeg');
+  background-size: cover;
+  background-position: center 30%;
+}
+
+#hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(5, 15, 30, 0.45) 0%,
+    rgba(5, 15, 30, 0.25) 40%,
+    rgba(5, 15, 30, 0.80) 100%
+  );
+}
+
+#hero-content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 4rem 2rem;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+#hero-badge {
+  background: rgba(255, 215, 0, 0.18);
+  border: 1px solid rgba(255, 215, 0, 0.4);
+  color: var(--gold);
+  border-radius: 20px;
+  padding: 5px 16px;
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+#hero-content h1 {
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  font-weight: 800;
+  color: var(--bg);
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+}
+
+#hero-accent {
+  color: var(--gold);
+}
+
+#hero-content p {
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 1rem;
+  line-height: 1.7;
+  max-width: 520px;
+}
+
+#hero-btns {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#btn-primary {
+  background: var(--red);
+  color: var(--bg);
+  padding: 0.85rem 1.8rem;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 1rem;
+  transition: background 0.2s;
+}
+
+#btn-primary:hover {
+  background: rgba(176, 16, 32, 1);
+}
+
+#btn-secondary {
+  background: rgba(255, 255, 255, 0.12);
+  color: var(--bg);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  padding: 0.85rem 1.8rem;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background 0.2s;
+}
+
+#btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.22);
+}
+
+#hero-note {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+}
+
 /* ── FOOTER ── */
 footer {
   background: rgba(6, 10, 18);
