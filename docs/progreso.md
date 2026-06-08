@@ -88,6 +88,8 @@
 - Home con estructura visual principal definida.
 - Base preparada para añadir contenido y funcionalidades.
 
+---
+
 ## 08/06/2026
 
 ### Actividades realizadas

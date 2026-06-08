@@ -27,6 +27,21 @@ export default function Home() {
         <div className="band-item"><span>💬</span> Atención por WhatsApp</div>
         <div className="band-item"><span>📄</span> Gestionamos todo el papeleo</div>
       </div>
+      {/* ESTADÍSTICAS */}
+      <section id="stats">
+        <div className="stat-card">
+          <span className="stat-num">+45</span>
+          <span className="stat-label">entidades bancarias colaboradoras</span>
+        </div>
+        <div className="stat-card">
+          <span className="stat-num">100%</span>
+          <span className="stat-label">gestión personalizada</span>
+        </div>
+        <div className="stat-card">
+          <span className="stat-num">0€</span>
+          <span className="stat-label">coste del estudio inicial</span>
+        </div>
+      </section>
     </main>
   )
 }
