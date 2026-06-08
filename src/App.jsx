@@ -8,6 +8,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Contacto from './pages/Contacto'
 import NotFound from './pages/NotFound'
+import Servicios from './pages/Servicios'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/about"    element={<About />} />
         <Route path="/contacto" element={<Contacto />} />
         <Route path="*"         element={<NotFound />} />
+        <Route path="/servicios" element={<Servicios />} />
       </Routes>
       <Footer />
     </Router>

@@ -6,6 +6,7 @@ export default function NavBar() {
       <div id="nav-links">
         <Link to="/">Inicio</Link>
         <Link to="/about">Nosotros</Link>
+        <Link to="/servicios">Servicios</Link>
         <Link to="/contacto" id="nav-cta">Consulta gratis</Link>
       </div>
     </nav>
