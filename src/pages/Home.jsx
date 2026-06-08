@@ -20,6 +20,13 @@ export default function Home() {
           <span id="hero-note">Consulta gratuita · Sin compromiso · Respondemos hoy</span>
         </div>
       </section>
+      {/* BANDA DE CONFIANZA */}
+      <div id="trust-band">
+        <div className="band-item"><span>🛡️</span> Sin coste inicial</div>
+        <div className="band-item"><span>⏱️</span> Respuesta en 24h</div>
+        <div className="band-item"><span>💬</span> Atención por WhatsApp</div>
+        <div className="band-item"><span>📄</span> Gestionamos todo el papeleo</div>
+      </div>
     </main>
   )
 }

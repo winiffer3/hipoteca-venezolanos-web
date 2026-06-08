@@ -88,6 +88,17 @@
 - Home con estructura visual principal definida.
 - Base preparada para añadir contenido y funcionalidades.
 
+## 08/06/2026
+
+### Actividades realizadas
+
+- Añadir banda de confianza en Home.
+- Estilos de banda de confianza.
+
+### Resultado
+
+- Sección trust band visible debajo del hero.
+
 ---
 
 ## Próximos pasos
@@ -98,3 +109,4 @@
 - Implementar formulario.
 - Responsive completo.
 - Revisión SEO.
+

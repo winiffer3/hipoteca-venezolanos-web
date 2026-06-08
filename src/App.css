@@ -162,6 +162,25 @@ nav {
   font-size: 0.8rem;
 }
 
+/* ── TRUST BAND ── */
+#trust-band {
+  background: #0f1923;
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid rgba(255, 215, 0, 0.1);
+}
+
+.band-item {
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
 /* ── FOOTER ── */
 footer {
   background: rgba(6, 10, 18);
