@@ -42,6 +42,33 @@ export default function Home() {
           <span className="stat-label">coste del estudio inicial</span>
         </div>
       </section>
+      {/* PAIN POINTS */}
+      <section id="pain-points">
+        <h2>Sabemos los obstáculos que enfrentas</h2>
+        <p className="section-sub">Porque los hemos resuelto cientos de veces</p>
+        <div id="pain-grid">
+          <div className="pain-card">
+            <span className="pain-icon">🪪</span>
+            <h3>Poco tiempo en España</h3>
+            <p>Sabemos qué bancos aprueban con menos de 2 años de residencia.</p>
+          </div>
+          <div className="pain-card">
+            <span className="pain-icon">💰</span>
+            <h3>Ingresos recientes</h3>
+            <p>Trabajamos con bancos que aceptan nóminas de menos de 1 año.</p>
+          </div>
+          <div className="pain-card">
+            <span className="pain-icon">📋</span>
+            <h3>Historial en Venezuela</h3>
+            <p>Entendemos tu situación crediticia y la explicamos bien al banco.</p>
+          </div>
+          <div className="pain-card">
+            <span className="pain-icon">🌍</span>
+            <h3>No comunitario</h3>
+            <p>Conocemos exactamente qué bancos trabajan con extracomunitarios.</p>
+          </div>
+        </div>
+      </section>
     </main>
   )
 }
