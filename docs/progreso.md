@@ -93,22 +93,33 @@
 ## 08/06/2026
 
 ### Actividades realizadas
-
-- Añadir banda de confianza en Home.
-- Estilos de banda de confianza.
+- Continuación del desarrollo de la página Home.
+- Implementación de la banda de confianza (Trust Band).
+- Actualización de la sección de estadísticas utilizando información de referencia de la empresa.
+- Desarrollo de la sección de puntos clave (Pain Points).
+- Revisión inicial del contenido de los Pain Points, pendiente de validación.
+- Creación de la página Servicios.
+- Integración de la nueva ruta dentro de la navegación principal.
+- Ajustes de estilos generales y organización de componentes.
+.
 
 ### Resultado
-
-- Sección trust band visible debajo del hero.
+- La página Home incorpora nuevas secciones informativas y continúa tomando forma.
+- Se amplió la estructura del sitio con la incorporación de la página Servicios.
+- Se mantiene el proyecto organizado y documentado para facilitar las siguientes fases de desarrollo.
+- Quedan pendientes pequeñas revisiones de contenido y la validación de algunos elementos.
 
 ---
 
 ## Próximos pasos
 
-- Completar secciones restantes del Home.
+- Revisar y ajustar los Pain Points.
+- Completar las secciones restantes del Home.
+- Desarrollar el contenido de Servicios.
 - Crear contenido de About.
 - Crear contenido de Contacto.
 - Implementar formulario.
-- Responsive completo.
+- Completar el diseño responsive.
 - Revisión SEO.
+- Ajustes finales tras la confirmación del dominio e identidad definitiva.
 
