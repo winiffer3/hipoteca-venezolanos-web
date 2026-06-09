@@ -111,15 +111,41 @@
 
 ---
 
+## 09/06/2026
+
+### Actividades realizadas
+
+- Desarrollo completo de la página Servicios.
+- Diseño y maquetación de la sección del proceso de asesoramiento.
+- Adaptación de los pasos del servicio tomando como referencia la web principal de i-credit.
+- Reorganización de la sección del proceso en formato de dos columnas.
+- Desarrollo del componente Calculadora.
+- Creación de la sección de testimonios.
+- Desarrollo del componente FAQ con acordeón.
+- Integración de imagen principal y banda de confianza en la página Servicios.
+- Creación de la llamada a la acción (CTA) final con botones de WhatsApp y llamada.
+- Desarrollo de la página Sobre Nosotros.
+- Desarrollo de la página Contacto.
+- Ajustes generales de estilos y estructura visual del proyecto.
+
+### Resultado
+
+- Página Servicios prácticamente finalizada a falta de validación de contenidos.
+- Página About estructurada y maquetada.
+- Página Contacto preparada para futura integración del formulario.
+- Arquitectura principal de la web prácticamente completada.
+- Pendiente revisión de algunos textos y contenidos junto al responsable del proyecto.
+
+---
+
 ## Próximos pasos
 
-- Revisar y ajustar los Pain Points.
-- Completar las secciones restantes del Home.
-- Desarrollar el contenido de Servicios.
-- Crear contenido de About.
-- Crear contenido de Contacto.
-- Implementar formulario.
-- Completar el diseño responsive.
-- Revisión SEO.
-- Ajustes finales tras la confirmación del dominio e identidad definitiva.
+- Revisar y validar los contenidos junto al responsable del proyecto.
+- Ajustar textos de la sección FAQ y del proceso de asesoramiento.
+- Realizar pruebas del formulario de contacto y verificar su funcionamiento.
+- Revisar y mejorar el diseño responsive.
+- Realizar ajustes de navegación y experiencia de usuario.
+- Adaptar la identidad visual definitiva si fuera necesario.
+- Configurar el dominio y el despliegue de la web.
+- Realizar pruebas finales y corregir incidencias detectadas.
 
