@@ -491,6 +491,69 @@ nav {
   font-style: italic;
 }
 
+/* ── FAQ ── */
+#faq {
+  padding: 4rem 2rem;
+  max-width: 860px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+#faq h2 {
+  text-align: center;
+  font-size: clamp(1.4rem, 3vw, 1.9rem);
+  margin-bottom: 0.4rem;
+}
+
+#faq-list {
+  max-width: 660px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.faq-item {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.faq-q {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.2rem;
+  background: var(--bg);
+  border: none;
+  cursor: pointer;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--text-h);
+  text-align: left;
+  gap: 1rem;
+}
+
+.faq-q:hover {
+  background: var(--bg2);
+}
+
+.faq-q span {
+  font-size: 1.2rem;
+  color: var(--red);
+  flex-shrink: 0;
+}
+
+.faq-a {
+  padding: 0 1.2rem 1rem;
+  font-size: 0.88rem;
+  color: var(--text);
+  line-height: 1.65;
+  background: var(--bg);
+}
+
+
 /* ── PAG SERVICIOS ── */
 #servicios-hero {
   background: var(--dark);

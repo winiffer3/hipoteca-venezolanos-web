@@ -1,4 +1,5 @@
 import Calculator from '../components/Calculator'
+import FAQ from '../components/FAQ'
 
 export default function Home() {
   return (
@@ -144,7 +145,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-
+      <FAQ />
     </main>
   )
 }
