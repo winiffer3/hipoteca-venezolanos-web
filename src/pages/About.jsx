@@ -16,6 +16,7 @@ export default function About() {
         <div className="band-item"><span>⏱️</span> Respuesta en 24h</div>
         <div className="band-item"><span>✅</span> Estudio gratuito</div>
       </div>
+
       {/* QUIENES SOMOS */}
       <section id="about-intro">
         <h2>¿Quiénes somos?</h2>
