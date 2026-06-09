@@ -69,6 +69,41 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* PASOS DEL PROCESO */}
+      <section id="como-funciona">
+        <h2>Así de simple es el proceso</h2>
+        <p className="section-sub">Tú vives tu vida, nosotros hacemos el trabajo</p>
+        <div id="steps">
+          <div className="step">
+            <div className="step-num">1</div>
+            <div className="step-body">
+              <h3>Nos cuentas tu situación</h3>
+              <p>Por WhatsApp, teléfono o email. Sin formularios interminables. 15 minutos y ya sabemos cómo ayudarte.</p>
+            </div>
+          </div>
+          <div className="step">
+            <div className="step-num">2</div>
+            <div className="step-body">
+              <h3>Analizamos tu perfil</h3>
+              <p>Revisamos tus ingresos, tiempo en España y documentación. Te decimos qué opciones tienes con total honestidad.</p>
+            </div>
+          </div>
+          <div className="step">
+            <div className="step-num">3</div>
+            <div className="step-body">
+              <h3>Negociamos con los bancos</h3>
+              <p>Presentamos tu caso a los bancos más adecuados para tu perfil. Conseguimos las mejores condiciones.</p>
+            </div>
+          </div>
+          <div className="step">
+            <div className="step-num">4</div>
+            <div className="step-body">
+              <h3>Firma y llaves 🎉</h3>
+              <p>Te acompañamos hasta el notario y resolvemos cualquier duda de último momento.</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   )
 }
