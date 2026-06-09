@@ -628,7 +628,7 @@ nav {
 /* ── PAG SERVICIOS ── */
 #servicios-hero {
   position: relative;
-  min-height: 350px;
+  min-height: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -723,6 +723,155 @@ nav {
   color: var(--text);
   line-height: 1.65;
 }
+/*----------------------------------------------------------*/
+
+/* ── PAG ABOUT ── */
+#about-hero {
+  position: relative;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-image: url('/images/jacuzzis-roraima-venezuelajpg.webp');
+  background-size: cover;
+  background-position: center;
+}
+
+#about-band {
+  background: #0f1923;
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid rgba(255, 215, 0, 0.1);
+}
+
+#about-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(5, 15, 30, 0.5) 0%,
+    rgba(5, 15, 30, 0.6) 100%
+  );
+}
+
+#about-content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+#about-content h1 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+#about-content h1 span {
+  color: var(--gold);
+}
+
+#about-content p {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1rem;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#about-intro {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+#about-intro h2 {
+  font-size: clamp(1.4rem, 3vw, 1.9rem);
+  margin-bottom: 0.4rem;
+}
+
+#about-intro p {
+  font-size: 0.95rem;
+  color: var(--text);
+  line-height: 1.75;
+}
+
+#about-valores {
+  background: var(--bg2);
+  padding: 4rem 2rem;
+}
+
+#about-valores h2 {
+  text-align: center;
+  font-size: clamp(1.4rem, 3vw, 1.9rem);
+  margin-bottom: 0.4rem;
+}
+
+#valores-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.valor-card {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 1.4rem;
+  transition: border-color 0.2s, transform 0.2s;
+}
+
+.valor-card:hover {
+  border-color: var(--red);
+  transform: translateY(-3px);
+}
+
+.valor-icon {
+  font-size: 1.6rem;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.valor-card h3 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-h);
+  margin-bottom: 5px;
+}
+
+.valor-card p {
+  font-size: 0.85rem;
+  color: var(--text);
+  line-height: 1.55;
+}
+
+#about-equipo {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+#about-equipo h2 {
+  font-size: clamp(1.4rem, 3vw, 1.9rem);
+  margin-bottom: 1rem;
+}
+
+#about-equipo p {
+  font-size: 0.95rem;
+  color: var(--text);
+  line-height: 1.75;
+}
+/*----------------------------------------------------------*/
 
 /* ── FOOTER ── */
 footer {
