@@ -146,6 +146,23 @@ export default function Home() {
         </div>
       </section>
       <FAQ />
+      {/* CTA FINAL */}
+      <section id="cta-final">
+        <h2>¿Listo para tener tu casa?</h2>
+        <p>Habla hoy con un asesor que entiende tu situación.<br />
+          Sin rodeos, sin tecnicismos, en tu idioma.
+        </p>
+        <div id="cta-btns">
+          <a href="https://wa.me/34609452314" id="btn-whatsapp">
+            <img src="/images/WhatsApp.svg" alt="WhatsApp" width="20" height="20" />
+            Escríbenos por WhatsApp
+          </a>
+          <a href="tel:+34910605055" id="btn-llamar">
+            📞 910 605 055
+          </a>
+        </div>
+        <span id="cta-note">Consulta gratuita · Sin compromiso · Respondemos hoy</span>
+      </section>
     </main>
   )
 }
