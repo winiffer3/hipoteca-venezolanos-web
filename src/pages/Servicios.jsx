@@ -2,10 +2,18 @@ export default function Servicios() {
   return (
     <main>
       <section id="servicios-hero">
-        <h1>Nuestros <span>Servicios</span></h1>
-        <p>Soluciones financieras a medida para la comunidad venezolana en España</p>
+        <div id="servicios-overlay" />
+        <div id="servicios-content">
+          <h1>Nuestros <span>Servicios</span></h1>
+          <p>Soluciones financieras a medida para la comunidad venezolana en España</p>
+        </div>
       </section>
-
+      <div id="servicios-band">
+        <div className="band-item"><span>🏦</span> +45 entidades bancarias</div>
+        <div className="band-item"><span>✅</span> Estudio gratuito sin compromiso</div>
+        <div className="band-item"><span>⚡</span> Respuesta en 24h</div>
+        <div className="band-item"><span>📋</span> Gestionamos todo el papeleo</div>
+      </div>
       <section id="servicios-grid">
         <div className="servicio-card">
           <span className="servicio-icon">🏠</span>
