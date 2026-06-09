@@ -273,6 +273,72 @@ nav {
   line-height: 1.55;
 }
 
+/* ── SERVICIOS ── */
+#servicios-hero {
+  background: var(--dark);
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+#servicios-hero h1 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+#servicios-hero h1 span {
+  color: var(--gold);
+}
+
+#servicios-hero p {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1rem;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#servicios-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+.servicio-card {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 2rem;
+  transition: border-color 0.2s, transform 0.2s;
+}
+
+.servicio-card:hover {
+  border-color: var(--red);
+  transform: translateY(-3px);
+}
+
+.servicio-icon {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.servicio-card h2 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-h);
+  margin-bottom: 0.75rem;
+}
+
+.servicio-card p {
+  font-size: 0.9rem;
+  color: var(--text);
+  line-height: 1.65;
+}
+
 /* ── FOOTER ── */
 footer {
   background: rgba(6, 10, 18);
