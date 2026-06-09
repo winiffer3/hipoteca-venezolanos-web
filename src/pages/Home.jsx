@@ -107,6 +107,44 @@ export default function Home() {
         </div>
       </section>
       <Calculator />
+      {/* TESTIMONIOS */}
+      <section id="testimonios">
+        <h2>Lo que dicen nuestros clientes</h2>
+        <p className="section-sub">Personas que confiaron en nosotros</p>
+        <div id="testi-grid">
+          <div className="testi-card">
+            <div className="testi-top">
+              <div className="avatar" id='avatar-uno'>RD</div>
+              <div>
+                <div className="testi-name">Roberto D.</div>
+              </div>
+            </div>
+            <div className="stars">★★★★★</div>
+            <p className="testi-text">"Han llevado mi caso, un tanto especial, con mucha profesionalidad. Me están ayudando a llevarlo lo mejor posible y buscando todas las facilidades."</p>
+          </div>
+          <div className="testi-card">
+            <div className="testi-top">
+              <div className="avatar" id='avatar-dos'>RM</div>
+              <div>
+                <div className="testi-name">Rafael M.</div>
+              </div>
+            </div>
+            <div className="stars">★★★★★</div>
+            <p className="testi-text">"Sin ellos no hubiera sido posible alcanzar la hipoteca que me han concedido. Los recomiendo para encontrar hipoteca en las mejores condiciones."</p>
+          </div>
+          <div className="testi-card">
+            <div className="testi-top">
+              <div className="avatar" id='avatar-tres'>BR</div>
+              <div>
+                <div className="testi-name">Boris R.</div>
+              </div>
+            </div>
+            <div className="stars">★★★★★</div>
+            <p className="testi-text">"Excelentes profesionales, te acompañan en todo el proceso hasta el final. Siempre buscando las mejores condiciones del mercado. Salió perfectamente la operación."</p>
+          </div>
+        </div>
+      </section>
+
     </main>
   )
 }
