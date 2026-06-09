@@ -1,3 +1,5 @@
+import Calculator from '../components/Calculator'
+
 export default function Home() {
   return (
     <main>
@@ -14,7 +16,7 @@ export default function Home() {
             aquí o ingresos recientes.
           </p>
           <div id="hero-btns">
-            <a href="#calcular" id="btn-primary">Calcula tu cuota</a>
+            <a href="#calculadora" id="btn-primary">Calcula tu cuota</a>
             <a href="#como-funciona" id="btn-secondary">Ver cómo funciona</a>
           </div>
           <span id="hero-note">Consulta gratuita · Sin compromiso · Respondemos hoy</span>
@@ -104,6 +106,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <Calculator />
     </main>
   )
 }
