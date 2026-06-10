@@ -68,7 +68,7 @@ nav {
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  background-image: url('/images/saltoAngel.jpeg');
+  background-image: url('/images/saltoAngel.webp');
   background-size: cover;
   background-position: center 30%;
 }
@@ -637,7 +637,7 @@ nav {
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  background-image: url('/images/Venezuela-archipiélago-Los-Roques.jpg');
+  background-image: url('/images/Venezuela-archipiélago-Los-Roques.webp');
   background-size: cover;
   background-position: center;
 }
@@ -885,7 +885,7 @@ nav {
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  background-image: url('/images/GranSabana-QuebradaJaspe.jpeg');
+  background-image: url('/images/GranSabana-QuebradaJaspe.webp');
   background-size: cover;
   background-position: center;
 }
