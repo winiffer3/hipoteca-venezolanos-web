@@ -1323,70 +1323,67 @@ footer span {
     text-align: center;
     justify-content: center;
   }
+}
 
-  /* ── PRIVACIDAD ── */
-  .privacidad-section {
-    max-width: 760px;
-    margin: 0 auto;
-    padding: 4rem 2rem;
-    width: 100%;
-    box-sizing: border-box;
-  }
+/* ── PRIVACIDAD ── */
+.privacidad-section {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  box-sizing: border-box;
+}
 
-  .privacidad-section h1 {
-    font-size: clamp(1.6rem, 3vw, 2.2rem);
-    margin-bottom: 0.5rem;
-  }
+.privacidad-section h1 {
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  margin-bottom: 0.5rem;
+}
 
-  .privacidad-fecha {
-    color: var(--text);
-    font-size: 0.85rem;
-    margin-bottom: 2rem;
-  }
+.privacidad-fecha {
+  color: var(--text);
+  font-size: 0.85rem;
+  margin-bottom: 2rem;
+}
 
-  .privacidad-section h2 {
-    font-size: 1.1rem;
-    margin: 1.5rem 0 0.5rem;
-    color: var(--text-h);
-  }
+.privacidad-section h2 {
+  font-size: 1.1rem;
+  margin: 1.5rem 0 0.5rem;
+  color: var(--text-h);
+}
 
-  .privacidad-section p {
-    font-size: 0.92rem;
-    color: var(--text);
-    line-height: 1.75;
-  }
+.privacidad-section p {
+  font-size: 0.92rem;
+  color: var(--text);
+  line-height: 1.75;
+}
 
-  #footer-privacidad {
-    width: 100%;
-    text-align: center;
-    font-size: 0.78rem;
-    color: rgba(255, 255, 255, 0.38);
-    text-decoration: none;
-  }
+#footer-privacidad {
+  font-size: 0.78rem;
+  color: rgba(255, 255, 255, 0.38);
+  text-decoration: none;
+}
 
-  #footer-privacidad:hover {
-    color: rgba(255, 255, 255, 0.7);
-  }
+#footer-privacidad:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
 
-  /* FOOTER */
-  footer {
-    gap: 1rem;
-    padding: 1rem 1.5rem;
-  }
+/* FOOTER */
+footer {
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+}
 
-  /* SECTIONS */
-  .section,
-  #pain-points,
-  #calcular,
-  #faq,
-  #about-intro,
-  #about-equipo {
-    padding: 2.5rem 1.25rem;
-  }
+/* SECTIONS */
+.section,
+#pain-points,
+#calcular,
+#faq,
+#about-intro,
+#about-equipo {
+  padding: 2.5rem 1.25rem;
+}
 
-  #como-funciona,
-  #testimonios,
-  #about-valores {
-    padding: 2.5rem 1.25rem;
-  }
+#como-funciona,
+#testimonios,
+#about-valores {
+  padding: 2.5rem 1.25rem;
 }

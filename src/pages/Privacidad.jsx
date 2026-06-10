@@ -1,3 +1,5 @@
+
+
 export default function Privacidad() {
   return (
     <div className="privacidad-section">
