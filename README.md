@@ -1,12 +1,8 @@
-# Hipoteca Venezuela
+# Hipoteca Venezolanos
 
 Web de asesoría hipotecaria especializada en venezolanos residentes en España.
 
-## Descripción
-
-Proyecto desarrollado con React y Vite para presentar los servicios de asesoría hipotecaria dirigidos a la comunidad venezolana residente en España.
-
-Actualmente el proyecto se encuentra en fase de desarrollo y pendiente de confirmación del dominio e identidad final de marca.
+🌐 [hipotecavenezolanos.com](https://hipotecavenezolanos.com)
 
 ## Stack
 
@@ -23,17 +19,12 @@ npm run dev
 
 ## Estructura
 
-```text
+```
 src/
-├── pages/
-├── components/
-
-docs/
-├── progreso.md
-├──
-
-public/
-└── images/
+  pages/        # Home, About, Servicios, Contacto, NotFound
+  components/   # Header, NavBar, Footer, Calculator, FAQ
+docs/           # registro de progreso y documentación
+public/images/  # imágenes y logo
 ```
 
 ## Páginas
@@ -42,32 +33,18 @@ public/
 |-------------|----------|
 | `/`         | Home     |
 | `/about`    | Nosotros |
+| `/servicios`| Servicios|
 | `/contacto` | Contacto |
 | `/*`        | 404      |
 
 ## Estado actual
 
-- Repositorio creado.
-- Proyecto configurado con Vite.
-- Routing configurado.
-- Logo y favicon integrados.
-- Header desarrollado.
-- Navbar desarrollada.
-- Footer desarrollado.
-- Hero principal en construcción.
-
-## Pendientes
-
-- Completar Home.
-- Crear contenido de About.
-- Crear contenido de Contacto.
-- Implementar formulario.
-- Responsive design.
-- Optimización SEO.
-- Ajustes finales tras confirmación del dominio.
+- ✅ Web en producción — [hipotecavenezolanos.com](https://hipotecavenezolanos.com)
+- ✅ Deploy automático con Netlify + GitHub
+- ✅ Formulario de contacto operativo con Formspree
+- ✅ Responsive completo
+- ✅ SEO básico configurado
 
 ## Progreso
 
-Consultar:
-
-docs/progreso.md
+Consultar: docs/progreso.md
