@@ -26,6 +26,10 @@ nav {
   border-bottom: 1px solid rgba(255, 215, 0, 0.1);
 }
 
+.nav-hamburger {
+  display: none;
+}
+
 #nav-links {
   display: flex;
   align-items: center;
@@ -1200,4 +1204,144 @@ footer span {
   font-size: 0.75rem;
   color: rgba(255, 255, 255, 0.25);
   margin-top: 0.5rem;
+}
+
+/*----------------------------------------------------------*/
+
+/* ── RESPONSIVE ── */
+@media (max-width: 768px) {
+
+  /* NAVBAR */
+  .nav-hamburger {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+  }
+
+  .nav-hamburger span {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background: #ffffff;
+    border-radius: 2px;
+  }
+
+  #nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background: #0a0f1a;
+    padding: 1rem 1.5rem;
+    gap: 1rem;
+    border-bottom: 1px solid rgba(255, 215, 0, 0.1);
+    z-index: 99;
+  }
+
+  #nav-links.open {
+    display: flex;
+  }
+
+  /* HERO */
+  .hero-section {
+    min-height: 480px;
+  }
+
+  #hero-content h1 {
+    font-size: 1.8rem;
+  }
+
+  /* TRUST BAND */
+  #trust-band {
+    gap: 1rem;
+    padding: 0.75rem 1rem;
+  }
+
+  /* STATS */
+  #stats {
+    grid-template-columns: 1fr;
+  }
+
+  .stat-card {
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .stat-card:last-child {
+    border-bottom: none;
+  }
+
+  /* PAIN POINTS */
+  #pain-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* STEPS */
+  #steps {
+    grid-template-columns: 1fr;
+  }
+
+  /* TESTIMONIOS */
+  #testi-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* SERVICIOS */
+  #servicios-grid {
+    grid-template-columns: 1fr;
+    padding: 2rem 1.5rem;
+  }
+
+  /* ABOUT */
+  #valores-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* CONTACTO */
+  #contacto-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 2rem 1.5rem;
+  }
+
+  /* CTA FINAL */
+  #cta-btns {
+    flex-direction: column;
+    width: 100%;
+    padding: 0 1.5rem;
+  }
+
+  #btn-whatsapp,
+  #btn-llamar {
+    text-align: center;
+    justify-content: center;
+  }
+
+  /* FOOTER */
+  footer {
+    gap: 1rem;
+    padding: 1rem 1.5rem;
+  }
+
+  /* SECTIONS */
+  .section,
+  #pain-points,
+  #calcular,
+  #faq,
+  #about-intro,
+  #about-equipo {
+    padding: 2.5rem 1.25rem;
+  }
+
+  #como-funciona,
+  #testimonios,
+  #about-valores {
+    padding: 2.5rem 1.25rem;
+  }
 }

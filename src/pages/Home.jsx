@@ -51,7 +51,7 @@ export default function Home() {
         <p className="section-sub">Porque los hemos resuelto cientos de veces</p>
         <div id="pain-grid">
           <div className="pain-card">
-            <span className="pain-icon">🪪</span>
+            <span className="pain-icon">📅</span>
             <h3>Poco tiempo en España</h3>
             <p>Sabemos qué bancos aprueban con menos de 2 años de residencia.</p>
           </div>
@@ -101,7 +101,7 @@ export default function Home() {
           <div className="step">
             <div className="step-num">4</div>
             <div className="step-body">
-              <h3>Firma y llaves 🎉</h3>
+              <h3>Firma y llaves 🔑</h3>
               <p>Te acompañamos hasta el notario y resolvemos cualquier duda de último momento.</p>
             </div>
           </div>
