@@ -8,7 +8,7 @@ export default function Home() {
       <section id="hero">
         <div id="hero-overlay" />
         <div id="hero-content">
-          <div id="hero-badge">🇻🇪 Especialistas en venezolanos en España</div>
+          <div id="hero-badge">🇻🇪 Especialistas hipotecarios para venezolanos en España 🇻🇪</div>
           <h1>Tu casa en España,<br />
             <span id="hero-accent">sin vueltas y en tu idioma</span>
           </h1>
