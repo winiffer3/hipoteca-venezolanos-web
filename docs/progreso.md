@@ -138,14 +138,34 @@
 
 ---
 
+## 10/06/2026
+
+### Actividades realizadas
+
+- Integración del formulario de contacto con Formspree.
+- Implementación de validaciones personalizadas en el formulario.
+- Desarrollo de la página 404 personalizada.
+- Implementación del responsive completo en todas las páginas.
+- Desarrollo del menú hamburguesa para móvil.
+- Optimización SEO básica en index.html.
+- Integración de meta tags Open Graph para redes sociales.
+- Ajuste del idioma del documento a español.
+
+### Resultado
+
+- Web completamente funcional y responsive en todos los dispositivos.
+- Formulario de contacto operativo con validaciones y envío real.
+- SEO básico configurado para indexación en Google.
+- Proyecto listo para fase de despliegue.
+
+---
+
 ## Próximos pasos
 
-- Revisar y validar los contenidos junto al responsable del proyecto.
-- Ajustar textos de la sección FAQ y del proceso de asesoramiento.
-- Realizar pruebas del formulario de contacto y verificar su funcionamiento.
-- Revisar y mejorar el diseño responsive.
-- Realizar ajustes de navegación y experiencia de usuario.
-- Adaptar la identidad visual definitiva si fuera necesario.
-- Configurar el dominio y el despliegue de la web.
-- Realizar pruebas finales y corregir incidencias detectadas.
+- Verificar acceso al panel de Nominalia para el despliegue.
+- Configurar el hosting y subir los archivos de producción.
+- Apuntar el dominio hipotecavenezolanos.com al hosting.
+- Añadir archivo .htaccess para que React Router funcione en producción.
+- Pruebas finales en producción.
+- Validar contenidos con el responsable del proyecto.
 
