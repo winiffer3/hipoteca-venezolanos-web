@@ -150,22 +150,24 @@
 - Optimización SEO básica en index.html.
 - Integración de meta tags Open Graph para redes sociales.
 - Ajuste del idioma del documento a español.
+- Despliegue de la web en Netlify conectado con GitHub.
+- Configuración del dominio hipotecavenezolanos.com apuntando a Netlify.
+- Verificación del funcionamiento del formulario en producción.
+- Corrección de rutas React Router en producción mediante archivo _redirects.
 
 ### Resultado
 
-- Web completamente funcional y responsive en todos los dispositivos.
-- Formulario de contacto operativo con validaciones y envío real.
-- SEO básico configurado para indexación en Google.
-- Proyecto listo para fase de despliegue.
+- Web en producción y accesible en hipotecavenezolanos.com.
+- Deploy automático configurado — cada git push actualiza la web.
+- Formulario de contacto verificado y operativo en producción.
+- Todas las rutas funcionando correctamente en producción.
 
 ---
 
 ## Próximos pasos
 
-- Verificar acceso al panel de Nominalia para el despliegue.
-- Configurar el hosting y subir los archivos de producción.
-- Apuntar el dominio hipotecavenezolanos.com al hosting.
-- Añadir archivo .htaccess para que React Router funcione en producción.
-- Pruebas finales en producción.
+- Configurar dominio hipotecavenezolanos.es para redirigir al .com.
+- Optimizar imágenes para mejorar velocidad de carga.
 - Validar contenidos con el responsable del proyecto.
+- Ajustes finales tras revisión con Antonio.
 
