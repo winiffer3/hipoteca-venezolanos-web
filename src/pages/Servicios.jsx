@@ -27,7 +27,7 @@ export default function Servicios() {
         </div>
         <div className="servicio-card">
           <span className="servicio-icon">💼</span>
-          <h2>Préstamos personalizados</h2>
+          <h2>Préstamos personales</h2>
           <p>Te damos una solución idónea, profesional y rápida para cualquier tipo de financiación según tu situación específica.</p>
         </div>
         <div className="servicio-card">

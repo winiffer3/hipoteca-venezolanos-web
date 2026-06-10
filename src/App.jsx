@@ -9,6 +9,7 @@ import About from './pages/About'
 import Contacto from './pages/Contacto'
 import NotFound from './pages/NotFound'
 import Servicios from './pages/Servicios'
+import Privacidad from './pages/Privacidad'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
         <Route path="/contacto" element={<Contacto />} />
         <Route path="*"         element={<NotFound />} />
         <Route path="/servicios" element={<Servicios />} />
+        <Route path="/privacidad" element={<Privacidad />} />
       </Routes>
       <Footer />
     </Router>

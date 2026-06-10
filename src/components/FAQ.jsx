@@ -7,15 +7,15 @@ const faqs = [
     },
     {
         q: '¿Cuánto hay que tener ahorrado?',
-        a: 'Normalmente un 20% del precio del piso más un 10-12% para gastos de notaría e impuestos. En total calcula tener entre un 30-32% del valor de la vivienda.'
+        a: 'Normalmente un 20% del precio del piso más un 10-12% para gastos de notaría e impuestos. En total calcula tener entre un 30-32% del valor de la vivienda. Sin embargo con nosotros podrias conseguir hasta el 100%'
     },
     {
         q: '¿Cuánto dinero necesito de entrada?',
-        a: 'Los bancos suelen financiar hasta el 80% del valor de tasación. El 20% restante lo pones tú como entrada más los gastos asociados a la compra.'
+        a: 'Los bancos suelen financiar hasta el 80% del valor de tasación. El 20% restante lo pones tú como entrada más los gastos asociados a la compra. Con nosotros no es necesario en algunos casos tener ese 20% ahorrado.'
     },
     {
         q: '¿Cuánto cuesta el servicio?',
-        a: 'El estudio inicial es completamente gratuito. Solo cobramos honorarios si conseguimos tu hipoteca aprobada, y te lo explicamos todo antes de empezar.'
+        a: 'El estudio inicial es completamente gratuito. Solo cobramos honorarios si conseguimos la hipoteca que necesitas. Te lo explicamos todo en la primera llamada.'
     },
 ]
 

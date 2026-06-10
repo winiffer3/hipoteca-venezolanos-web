@@ -627,6 +627,7 @@ nav {
   color: rgba(255, 255, 255, 0.4);
   font-size: 0.8rem;
 }
+
 /*----------------------------------------------------------*/
 
 /* ── PAG SERVICIOS ── */
@@ -645,11 +646,9 @@ nav {
 #servicios-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(
-    to bottom,
-    rgba(5, 15, 30, 0.5) 0%,
-    rgba(5, 15, 30, 0.6) 100%
-  );
+  background: linear-gradient(to bottom,
+      rgba(5, 15, 30, 0.5) 0%,
+      rgba(5, 15, 30, 0.6) 100%);
 }
 
 #servicios-content {
@@ -727,6 +726,7 @@ nav {
   color: var(--text);
   line-height: 1.65;
 }
+
 /*----------------------------------------------------------*/
 
 /* ── PAG ABOUT ── */
@@ -755,11 +755,9 @@ nav {
 #about-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(
-    to bottom,
-    rgba(5, 15, 30, 0.5) 0%,
-    rgba(5, 15, 30, 0.6) 100%
-  );
+  background: linear-gradient(to bottom,
+      rgba(5, 15, 30, 0.5) 0%,
+      rgba(5, 15, 30, 0.6) 100%);
 }
 
 #about-content {
@@ -875,6 +873,7 @@ nav {
   color: var(--text);
   line-height: 1.75;
 }
+
 /*----------------------------------------------------------*/
 
 /* ── CONTACTO ── */
@@ -893,11 +892,9 @@ nav {
 #contacto-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(
-    to bottom,
-    rgba(5, 15, 30, 0.5) 0%,
-    rgba(5, 15, 30, 0.6) 100%
-  );
+  background: linear-gradient(to bottom,
+      rgba(5, 15, 30, 0.5) 0%,
+      rgba(5, 15, 30, 0.6) 100%);
 }
 
 #contacto-content {
@@ -970,7 +967,9 @@ nav {
   transition: opacity 0.2s;
 }
 
-.contacto-item:hover { opacity: 0.85; }
+.contacto-item:hover {
+  opacity: 0.85;
+}
 
 .contacto-whatsapp {
   background: #25D366;
@@ -1126,6 +1125,7 @@ nav {
   color: var(--text);
   font-size: 0.78rem;
 }
+
 /*----------------------------------------------------------*/
 
 /* ── NOT FOUND ── */
@@ -1179,6 +1179,7 @@ nav {
 #notfound-btn:hover {
   background: #b01020;
 }
+
 /*----------------------------------------------------------*/
 
 /* ── FOOTER ── */
@@ -1321,6 +1322,50 @@ footer span {
   #btn-llamar {
     text-align: center;
     justify-content: center;
+  }
+
+  /* ── PRIVACIDAD ── */
+  .privacidad-section {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .privacidad-section h1 {
+    font-size: clamp(1.6rem, 3vw, 2.2rem);
+    margin-bottom: 0.5rem;
+  }
+
+  .privacidad-fecha {
+    color: var(--text);
+    font-size: 0.85rem;
+    margin-bottom: 2rem;
+  }
+
+  .privacidad-section h2 {
+    font-size: 1.1rem;
+    margin: 1.5rem 0 0.5rem;
+    color: var(--text-h);
+  }
+
+  .privacidad-section p {
+    font-size: 0.92rem;
+    color: var(--text);
+    line-height: 1.75;
+  }
+
+  #footer-privacidad {
+    width: 100%;
+    text-align: center;
+    font-size: 0.78rem;
+    color: rgba(255, 255, 255, 0.38);
+    text-decoration: none;
+  }
+
+  #footer-privacidad:hover {
+    color: rgba(255, 255, 255, 0.7);
   }
 
   /* FOOTER */

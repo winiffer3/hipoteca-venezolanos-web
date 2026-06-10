@@ -12,9 +12,8 @@ export default function Home() {
           <h1>Tu casa en España,<br />
             <span id="hero-accent">sin vueltas y en tu idioma</span>
           </h1>
-          <p>Sabemos lo que es llegar de Venezuela y empezar de cero. Te ayudamos a
-            conseguir tu hipoteca aunque seas no comunitario, tengas poco tiempo
-            aquí o ingresos recientes.
+          <p>Sabemos lo que es llegar de Venezuela y empezar de cero. 
+            Te ayudamos a conseguir tu hipoteca en España.
           </p>
           <div id="hero-btns">
             <a href="#calculadora" id="btn-primary">Calcula tu cuota</a>
