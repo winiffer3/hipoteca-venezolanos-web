@@ -62,7 +62,7 @@ export default function Contacto() {
     const data = new FormData()
     Object.entries(form).forEach(([key, value]) => data.append(key, value))
 
-    const response = await fetch('https://formspree.io/f/xkoabyyn', {
+    const response = await fetch('https://formspree.io/f/mojznkek', {
       method: 'POST',
       body: data,
       headers: { Accept: 'application/json' }
