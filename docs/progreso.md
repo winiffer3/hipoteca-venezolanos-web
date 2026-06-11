@@ -175,17 +175,22 @@
 - Actualización del endpoint de Formspree en el código (Contacto.jsx).
 - Verificación del deploy automático desde la cuenta colaboradora Practicas-I-credit — funcionando correctamente.
 - Pruebas del formulario en producción confirmadas.
+- Instalación y configuración de vite-plugin-sitemap.
+- Generación de sitemap.xml con todas las rutas del sitio.
+- Sitemap accesible en producción: hipotecavenezolanos.com/sitemap.xml.
 
 ### Resultado
 
 - Formulario operativo y enviando a info@i-credit.es correctamente.
 - Deploy automático desde cuenta empresa verificado y funcional.
 - Emails llegan a carpeta de no deseado por política del servidor corporativo — pendiente de que i-credit configure una regla de bandeja de entrada desde su gestión interna de correo.
+- Sitemap.xml generado automáticamente en cada build y desplegado en producción.
 
 ---
 
 ## Próximos pasos
 
-- Validar contenidos con el responsable del proyecto.
+- Que i-credit configure regla en su servidor para que emails de formspree.io lleguen a bandeja de entrada.
+- Dar de alta hipotecavenezolanos.com en Google Search Console y enviar sitemap.xml — pendiente de acceso a cuenta Google de la empresa.
 - Ajustes finales tras revisión con Antonio.
 
