@@ -7,7 +7,7 @@ export default defineConfig({
     react(),
     sitemap({
       hostname: 'https://hipotecavenezolanos.com',
-      routes: ['/', '/servicios', '/about', '/contacto', '/privacidad'],
+      dynamicRoutes: ['/', '/servicios', '/about', '/contacto', '/privacidad'],
     }),
   ],
 })
