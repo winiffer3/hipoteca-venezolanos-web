@@ -164,10 +164,28 @@
 
 ---
 
+## 11/06/2026
+
+### Actividades realizadas
+
+- Cambio del email destino del formulario de Formspree a info@i-credit.es.
+- Resolución de problema de entrega: el correo corporativo bloqueaba emails de Formspree.
+- Configuración de formspree.io como remitente seguro en Outlook.
+- Verificación del email info@i-credit.es en Formspree (estado: VERIFIED).
+- Actualización del endpoint de Formspree en el código (Contacto.jsx).
+- Verificación del deploy automático desde la cuenta colaboradora Practicas-I-credit — funcionando correctamente.
+- Pruebas del formulario en producción confirmadas.
+
+### Resultado
+
+- Formulario operativo y enviando a info@i-credit.es correctamente.
+- Deploy automático desde cuenta empresa verificado y funcional.
+- Emails llegan a carpeta de no deseado por política del servidor corporativo — pendiente de que i-credit configure una regla de bandeja de entrada desde su gestión interna de correo.
+
+---
+
 ## Próximos pasos
 
-- Configurar dominio hipotecavenezolanos.es para redirigir al .com.
-- Optimizar imágenes para mejorar velocidad de carga.
 - Validar contenidos con el responsable del proyecto.
 - Ajustes finales tras revisión con Antonio.
 
