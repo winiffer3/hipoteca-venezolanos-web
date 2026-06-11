@@ -10,24 +10,26 @@ import Contacto from './pages/Contacto'
 import NotFound from './pages/NotFound'
 import Servicios from './pages/Servicios'
 import Privacidad from './pages/Privacidad'
+import WhatsAppButton from './components/WhatsAppButton'
 
 function App() {
 
   return (
     <>
-     <Router>
-      <Header />
-      <NavBar />
-      <Routes>
-        <Route path="/"         element={<Home />} />
-        <Route path="/about"    element={<About />} />
-        <Route path="/contacto" element={<Contacto />} />
-        <Route path="*"         element={<NotFound />} />
-        <Route path="/servicios" element={<Servicios />} />
-        <Route path="/privacidad" element={<Privacidad />} />
-      </Routes>
-      <Footer />
-    </Router>
+      <Router>
+        <Header />
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contacto" element={<Contacto />} />
+          <Route path="*" element={<NotFound />} />
+          <Route path="/servicios" element={<Servicios />} />
+          <Route path="/privacidad" element={<Privacidad />} />
+        </Routes>
+        <WhatsAppButton />
+        <Footer />
+      </Router>
     </>
   )
 }

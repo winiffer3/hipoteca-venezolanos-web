@@ -169,7 +169,7 @@
 ### Actividades realizadas
 
 - Cambio del email destino del formulario de Formspree a info@i-credit.es.
-- Resolución de problema de entrega: el correo corporativo bloqueaba emails de Formspree.
+- Resolución de problema de entrega: el correo corporativo bloqueaba emails de Formspree.  
 - Configuración de formspree.io como remitente seguro en Outlook.
 - Verificación del email info@i-credit.es en Formspree (estado: VERIFIED).
 - Actualización del endpoint de Formspree en el código (Contacto.jsx).
