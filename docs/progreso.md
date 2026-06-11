@@ -178,6 +178,8 @@
 - Instalación y configuración de vite-plugin-sitemap.
 - Generación de sitemap.xml con todas las rutas del sitio.
 - Sitemap accesible en producción: hipotecavenezolanos.com/sitemap.xml.
+- Desarrollo del componente WhatsAppButton — botón flotante visible en todas las páginas.
+- Corrección de estilos CSS: reglas responsive movidas dentro del media query correspondiente y eliminada declaración duplicada de footer.
 
 ### Resultado
 
@@ -185,6 +187,8 @@
 - Deploy automático desde cuenta empresa verificado y funcional.
 - Emails llegan a carpeta de no deseado por política del servidor corporativo — pendiente de que i-credit configure una regla de bandeja de entrada desde su gestión interna de correo.
 - Sitemap.xml generado automáticamente en cada build y desplegado en producción.
+- Botón de WhatsApp flotante operativo en producción en todas las páginas.
+- CSS limpio y correctamente estructurado.
 
 ---
 
