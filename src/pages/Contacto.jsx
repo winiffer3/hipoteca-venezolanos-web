@@ -1,6 +1,7 @@
 import { useState } from 'react'
 
 export default function Contacto() {
+  const [terms, setTerms] = useState(false)
   const [enviado, setEnviado] = useState(false)
   const [enviando, setEnviando] = useState(false)
   const [errores, setErrores] = useState({})
@@ -44,6 +45,10 @@ export default function Contacto() {
       nuevosErrores.mensaje = 'Cuéntanos tu situación para poder ayudarte'
     } else if (form.mensaje.trim().length < 20) {
       nuevosErrores.mensaje = 'Por favor añade un poco más de detalle (mínimo 20 caracteres)'
+    }
+
+    if (!terms) {
+      nuevosErrores.terms = 'Debes aceptar la Política de Privacidad para continuar'
     }
 
     return nuevosErrores
@@ -211,6 +216,22 @@ export default function Contacto() {
                   className={errores.mensaje ? 'input-error' : ''}
                 />
                 {errores.mensaje && <span className="error-msg">{errores.mensaje}</span>}
+              </div>
+
+              <div className="form-group">
+                <label className="checkbox-label">
+                  <input
+                    type="checkbox"
+                    checked={terms}
+                    onChange={(e) => {
+                      setTerms(e.target.checked)
+                      setErrores({ ...errores, terms: '' })
+                    }}
+                  />
+                  He leído y acepto la{' '}
+                  <a href="/privacidad" target="_blank" rel="noopener noreferrer">Política de Privacidad</a>
+                </label>
+                {errores.terms && <span className="error-msg">{errores.terms}</span>}
               </div>
 
               <button type="submit" id="form-submit" disabled={enviando}>
