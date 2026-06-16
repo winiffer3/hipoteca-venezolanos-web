@@ -85,16 +85,16 @@ export default function Contacto() {
     <main>
 
       {/* HERO */}
-      <section id="contacto-hero">
-        <div id="contacto-overlay" />
-        <div id="contacto-content">
+      <section id="contacto-hero" className="page-hero">
+        <div className="page-hero-overlay" />
+        <div className="page-hero-content">
           <h1>Contacta con <span>Nosotros</span></h1>
           <p>Cuéntanos tu situación y te respondemos hoy mismo</p>
         </div>
       </section>
 
       {/* BANDA */}
-      <div id="contacto-band">
+      <div className="trust-band">
         <div className="band-item"><span>⏱️</span> Respuesta en 24h</div>
         <div className="band-item"><span>✅</span> Consulta gratuita</div>
         <div className="band-item"><span>📞</span> 910 605 055</div>

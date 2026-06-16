@@ -23,7 +23,7 @@ export default function Home() {
         </div>
       </section>
       {/* BANDA DE CONFIANZA */}
-      <div id="trust-band">
+      <div className="trust-band">
         <div className="band-item"><span>🛡️</span> Sin coste inicial</div>
         <div className="band-item"><span>⏱️</span> Respuesta en 24h</div>
         <div className="band-item"><span>💬</span> Atención por WhatsApp</div>
@@ -46,34 +46,34 @@ export default function Home() {
       </section>
       {/* PAIN POINTS */}
       <section id="pain-points">
-        <h2>Sabemos los obstáculos que enfrentas</h2>
+        <h2 className="section-title">Sabemos los obstáculos que enfrentas</h2>
         <p className="section-sub">Porque los hemos resuelto cientos de veces</p>
         <div id="pain-grid">
-          <div className="pain-card">
+          <div className="pain-card card-hover">
             <span className="pain-icon">📅</span>
-            <h3>Poco tiempo en España</h3>
-            <p>Sabemos qué bancos aprueban con menos de 2 años de residencia.</p>
+            <h3 className="card-title">Poco tiempo en España</h3>
+            <p className="card-text">Sabemos qué bancos aprueban con menos de 2 años de residencia.</p>
           </div>
-          <div className="pain-card">
+          <div className="pain-card card-hover">
             <span className="pain-icon">💰</span>
-            <h3>Ingresos recientes</h3>
-            <p>Trabajamos con bancos que aceptan nóminas de menos de 1 año.</p>
+            <h3 className="card-title">Ingresos recientes</h3>
+            <p className="card-text">Trabajamos con bancos que aceptan nóminas de menos de 1 año.</p>
           </div>
-          <div className="pain-card">
+          <div className="pain-card card-hover">
             <span className="pain-icon">📋</span>
-            <h3>Historial en Venezuela</h3>
-            <p>Entendemos tu situación crediticia y la explicamos bien al banco.</p>
+            <h3 className="card-title">Historial en Venezuela</h3>
+            <p className="card-text">Entendemos tu situación crediticia y la explicamos bien al banco.</p>
           </div>
-          <div className="pain-card">
-            <span className="pain-icon">🌍</span>
-            <h3>No comunitario</h3>
-            <p>Conocemos exactamente qué bancos trabajan con extracomunitarios.</p>
+          <div className="pain-card card-hover">
+            <span className="pain-icon card-icon" >🌍</span>
+            <h3 className="card-title">No comunitario</h3>
+            <p className="card-text">Conocemos exactamente qué bancos trabajan con extracomunitarios.</p>
           </div>
         </div>
       </section>
       {/* PASOS DEL PROCESO */}
       <section id="como-funciona">
-        <h2>Así de simple es el proceso</h2>
+        <h2 className="section-title">Así de simple es el proceso</h2>
         <p className="section-sub">Tú vives tu vida, nosotros hacemos el trabajo</p>
         <div id="steps">
           <div className="step">
@@ -109,7 +109,7 @@ export default function Home() {
       <Calculator />
       {/* TESTIMONIOS */}
       <section id="testimonios">
-        <h2>Lo que dicen nuestros clientes</h2>
+        <h2 className="section-title">Lo que dicen nuestros clientes</h2>
         <p className="section-sub">Personas que confiaron en nosotros</p>
         <div id="testi-grid">
           <div className="testi-card">

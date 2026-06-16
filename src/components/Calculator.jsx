@@ -25,7 +25,7 @@ export default function Calculator() {
 
     return (
         <section id="calculadora">
-            <h2>Calcula tu cuota mensual</h2>
+            <h2 className="section-title">Calcula tu cuota mensual</h2>
             <p className="section-sub">Una estimación rápida para que vayas con números claros</p>
             <div id="calc-box">
                 <div className="calc-row">

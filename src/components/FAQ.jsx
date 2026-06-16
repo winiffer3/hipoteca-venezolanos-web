@@ -28,7 +28,7 @@ export default function FAQ() {
 
     return (
         <section id="faq">
-            <h2>FAQ</h2>
+            <h2 className="section-title">FAQ</h2>
             <p className="section-sub">Las preguntas más frecuentes</p>
             <div id="faq-list">
                 {faqs.map((f, i) => (

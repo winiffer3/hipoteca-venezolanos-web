@@ -44,3 +44,102 @@ h1, h2, h3 {
 p { margin: 0; }
 
 a { text-decoration: none; transition: opacity 0.2s; }
+
+/* ────────── CLASES COMPARTIDAS ────────── */
+
+/* ──HERO DE PÁGINA INTERNA ── */
+.page-hero {
+  position: relative;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+}
+
+.page-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom,
+      rgba(5, 15, 30, 0.5) 0%,
+      rgba(5, 15, 30, 0.6) 100%);
+}
+
+.page-hero-content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+.page-hero-content h1 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.page-hero-content h1 span {
+  color: var(--gold);
+}
+
+.page-hero-content p {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1rem;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* ── trust-band ── */
+.trust-band {
+  background: #0f1923;
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid rgba(255, 215, 0, 0.1);
+}
+
+/* ── titles h2 ── */
+.section-title {
+  text-align: center;
+  font-size: clamp(1.4rem, 3vw, 1.9rem);
+  margin-bottom: 0.4rem;
+}
+
+/* ── Cards con hover  (Pain Points, Servicios, About valores) ── */
+.card-hover {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 1.4rem;
+  transition: border-color 0.2s, transform 0.2s;
+}
+
+.card-hover:hover {
+  border-color: var(--red);
+  transform: translateY(-3px);
+}
+
+.card-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-h);
+  margin-bottom: 5px;
+}
+
+.card-text {
+  font-size: 0.85rem;
+  color: var(--text);
+  line-height: 1.55;
+}
+
+/* ── icon + texto de las cards ── */
+.card-icon {
+  font-size: 1.6rem;
+  display: block;
+  margin-bottom: 10px;
+}

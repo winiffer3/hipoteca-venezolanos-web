@@ -165,15 +165,6 @@ nav {
 }
 
 /* ── TRUST BAND ── */
-#trust-band {
-  background: #0f1923;
-  display: flex;
-  justify-content: center;
-  gap: 2.5rem;
-  flex-wrap: wrap;
-  padding: 1rem 2rem;
-  border-bottom: 1px solid rgba(255, 215, 0, 0.1);
-}
 
 .band-item {
   color: rgba(255, 255, 255, 0.78);
@@ -224,12 +215,6 @@ nav {
   width: 100%;
 }
 
-#pain-points h2 {
-  text-align: center;
-  font-size: clamp(1.4rem, 3vw, 1.9rem);
-  margin-bottom: 0.4rem;
-}
-
 .section-sub {
   text-align: center;
   color: var(--text);
@@ -243,48 +228,10 @@ nav {
   gap: 16px;
 }
 
-.pain-card {
-  background: var(--bg);
-  border: 1px solid var(--border);
-  border-radius: 14px;
-  padding: 1.4rem;
-  transition: border-color 0.2s, transform 0.2s;
-}
-
-.pain-card:hover {
-  border-color: var(--red);
-  transform: translateY(-3px);
-}
-
-.pain-icon {
-  font-size: 1.6rem;
-  display: block;
-  margin-bottom: 10px;
-}
-
-.pain-card h3 {
-  font-size: 0.95rem;
-  font-weight: 700;
-  color: var(--text-h);
-  margin-bottom: 5px;
-}
-
-.pain-card p {
-  font-size: 0.85rem;
-  color: var(--text);
-  line-height: 1.55;
-}
-
 /* ── PASOS DEL PROCESO ── */
 #como-funciona {
   background: var(--bg2);
   padding: 4rem 2rem;
-}
-
-#como-funciona h2 {
-  text-align: center;
-  font-size: clamp(1.4rem, 3vw, 1.9rem);
-  margin-bottom: 0.4rem;
 }
 
 #steps {
@@ -342,12 +289,6 @@ nav {
   max-width: 860px;
   margin: 0 auto;
   width: 100%;
-}
-
-#calculadora h2 {
-  text-align: center;
-  font-size: clamp(1.4rem, 3vw, 1.9rem);
-  margin-bottom: 0.4rem;
 }
 
 #calc-box {
@@ -418,12 +359,6 @@ nav {
 #testimonios {
   background: var(--bg2);
   padding: 4rem 2rem;
-}
-
-#testimonios h2 {
-  text-align: center;
-  font-size: clamp(1.4rem, 3vw, 1.9rem);
-  margin-bottom: 0.4rem;
 }
 
 #testi-grid {
@@ -501,12 +436,6 @@ nav {
   max-width: 860px;
   margin: 0 auto;
   width: 100%;
-}
-
-#faq h2 {
-  text-align: center;
-  font-size: clamp(1.4rem, 3vw, 1.9rem);
-  margin-bottom: 0.4rem;
 }
 
 #faq-list {
@@ -632,58 +561,7 @@ nav {
 
 /* ── PAG SERVICIOS ── */
 #servicios-hero {
-  position: relative;
-  min-height: 400px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
   background-image: url('/images/Venezuela-archipiélago-Los-Roques.webp');
-  background-size: cover;
-  background-position: center;
-}
-
-#servicios-overlay {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(to bottom,
-      rgba(5, 15, 30, 0.5) 0%,
-      rgba(5, 15, 30, 0.6) 100%);
-}
-
-#servicios-content {
-  position: relative;
-  z-index: 1;
-  text-align: center;
-  padding: 3rem 2rem;
-}
-
-#servicios-content h1 {
-  font-size: clamp(2rem, 4vw, 3rem);
-  font-weight: 800;
-  color: #ffffff;
-  margin-bottom: 1rem;
-}
-
-#servicios-content h1 span {
-  color: var(--gold);
-}
-
-#servicios-content p {
-  color: rgba(255, 255, 255, 0.75);
-  font-size: 1rem;
-  max-width: 500px;
-  margin: 0 auto;
-}
-
-#servicios-band {
-  background: #0f1923;
-  display: flex;
-  justify-content: center;
-  gap: 2.5rem;
-  flex-wrap: wrap;
-  padding: 1rem 2rem;
-  border-bottom: 1px solid rgba(255, 215, 0, 0.1);
 }
 
 #servicios-grid {
@@ -696,21 +574,11 @@ nav {
 }
 
 .servicio-card {
-  background: var(--bg);
-  border: 1px solid var(--border);
-  border-radius: 14px;
   padding: 2rem;
-  transition: border-color 0.2s, transform 0.2s;
-}
-
-.servicio-card:hover {
-  border-color: var(--red);
-  transform: translateY(-3px);
 }
 
 .servicio-icon {
   font-size: 2rem;
-  display: block;
   margin-bottom: 1rem;
 }
 
@@ -731,58 +599,7 @@ nav {
 
 /* ── PAG ABOUT ── */
 #about-hero {
-  position: relative;
-  min-height: 400px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
   background-image: url('/images/jacuzzis-roraima-venezuelajpg.webp');
-  background-size: cover;
-  background-position: center;
-}
-
-#about-band {
-  background: #0f1923;
-  display: flex;
-  justify-content: center;
-  gap: 2.5rem;
-  flex-wrap: wrap;
-  padding: 1rem 2rem;
-  border-bottom: 1px solid rgba(255, 215, 0, 0.1);
-}
-
-#about-overlay {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(to bottom,
-      rgba(5, 15, 30, 0.5) 0%,
-      rgba(5, 15, 30, 0.6) 100%);
-}
-
-#about-content {
-  position: relative;
-  z-index: 1;
-  text-align: center;
-  padding: 3rem 2rem;
-}
-
-#about-content h1 {
-  font-size: clamp(2rem, 4vw, 3rem);
-  font-weight: 800;
-  color: #ffffff;
-  margin-bottom: 1rem;
-}
-
-#about-content h1 span {
-  color: var(--gold);
-}
-
-#about-content p {
-  color: rgba(255, 255, 255, 0.75);
-  font-size: 1rem;
-  max-width: 500px;
-  margin: 0 auto;
 }
 
 #about-intro {
@@ -810,50 +627,12 @@ nav {
   padding: 4rem 2rem;
 }
 
-#about-valores h2 {
-  text-align: center;
-  font-size: clamp(1.4rem, 3vw, 1.9rem);
-  margin-bottom: 0.4rem;
-}
-
 #valores-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 16px;
   max-width: 860px;
   margin: 0 auto;
-}
-
-.valor-card {
-  background: var(--bg);
-  border: 1px solid var(--border);
-  border-radius: 14px;
-  padding: 1.4rem;
-  transition: border-color 0.2s, transform 0.2s;
-}
-
-.valor-card:hover {
-  border-color: var(--red);
-  transform: translateY(-3px);
-}
-
-.valor-icon {
-  font-size: 1.6rem;
-  display: block;
-  margin-bottom: 10px;
-}
-
-.valor-card h3 {
-  font-size: 0.95rem;
-  font-weight: 700;
-  color: var(--text-h);
-  margin-bottom: 5px;
-}
-
-.valor-card p {
-  font-size: 0.85rem;
-  color: var(--text);
-  line-height: 1.55;
 }
 
 #about-equipo {
@@ -878,58 +657,7 @@ nav {
 
 /* ── CONTACTO ── */
 #contacto-hero {
-  position: relative;
-  min-height: 400px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
   background-image: url('/images/GranSabana-QuebradaJaspe.webp');
-  background-size: cover;
-  background-position: center;
-}
-
-#contacto-overlay {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(to bottom,
-      rgba(5, 15, 30, 0.5) 0%,
-      rgba(5, 15, 30, 0.6) 100%);
-}
-
-#contacto-content {
-  position: relative;
-  z-index: 1;
-  text-align: center;
-  padding: 3rem 2rem;
-}
-
-#contacto-content h1 {
-  font-size: clamp(2rem, 4vw, 3rem);
-  font-weight: 800;
-  color: #ffffff;
-  margin-bottom: 1rem;
-}
-
-#contacto-content h1 span {
-  color: var(--gold);
-}
-
-#contacto-content p {
-  color: rgba(255, 255, 255, 0.75);
-  font-size: 1rem;
-  max-width: 500px;
-  margin: 0 auto;
-}
-
-#contacto-band {
-  background: #0f1923;
-  display: flex;
-  justify-content: center;
-  gap: 2.5rem;
-  flex-wrap: wrap;
-  padding: 1rem 2rem;
-  border-bottom: 1px solid rgba(255, 215, 0, 0.1);
 }
 
 #contacto-grid {
