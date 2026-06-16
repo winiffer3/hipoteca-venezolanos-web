@@ -192,9 +192,31 @@
 
 ---
 
+## 16/06/2026
+
+### Actividades realizadas
+
+- Añadido checkbox de aceptación de Política de Privacidad en formulario de contacto (cumplimiento RGPD).
+- Preload de imágenes críticas en index.html para mejorar velocidad de carga inicial.
+- Refactorización completa de CSS: unificación de clases repetidas en index.css.
+  - Hero de páginas internas (Servicios, About, Contacto) unificado en .page-hero.
+  - Trust band de todas las páginas unificado en .trust-band.
+  - Títulos de sección unificados en .section-title.
+  - Cards con hover (Pain Points, Servicios, About valores) unificadas en .card-hover.
+  - Iconos de card unificados en .card-icon.
+  - Título y texto de card unificados en .card-title y .card-text.
+
+### Resultado
+
+- CSS significativamente más limpio y mantenible — eliminada duplicación entre páginas.
+- index.css ahora concentra las clases compartidas, App.css mantiene los estilos específicos por página.
+- Cumplimiento RGPD reforzado en el formulario de contacto.
+- Velocidad de carga mejorada con preload de imágenes.
+
+---
+
 ## Próximos pasos
 
 - Que i-credit configure regla en su servidor para que emails de formspree.io lleguen a bandeja de entrada.
 - Dar de alta hipotecavenezolanos.com en Google Search Console y enviar sitemap.xml — pendiente de acceso a cuenta Google de la empresa.
-- Ajustes finales tras revisión con Antonio.
 

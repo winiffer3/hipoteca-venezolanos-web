@@ -44,6 +44,8 @@ public/images/  # imágenes y logo
 - ✅ Formulario de contacto operativo con Formspree
 - ✅ Responsive completo
 - ✅ SEO básico configurado
+- ✅ CSS refactorizado — clases compartidas en index.css
+- ✅ Cumplimiento RGPD (checkbox política de privacidad)
 
 
 ## Progreso
