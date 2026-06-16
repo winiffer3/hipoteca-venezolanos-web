@@ -6,11 +6,11 @@ export default function Home() {
     <main>
       {/* HERO */}
       <section id="hero">
-        <div id="hero-overlay" />
-        <div id="hero-content">
+        <div className='page-hero-overlay' />
+        <div className='page-hero-content'>
           <div id="hero-badge">🇻🇪 Especialistas hipotecarios para venezolanos en España 🇻🇪</div>
           <h1>Tu casa en España,<br />
-            <span id="hero-accent">sin vueltas y en tu idioma</span>
+            <span>sin vueltas y en tu idioma</span>
           </h1>
           <p>Sabemos lo que es llegar de Venezuela y empezar de cero. 
             Te ayudamos a conseguir tu hipoteca en España.

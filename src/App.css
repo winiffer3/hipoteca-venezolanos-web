@@ -73,54 +73,15 @@ nav {
   background-position: center 30%;
 }
 
-#hero-overlay {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(to bottom,
-      rgba(5, 15, 30, 0.45) 0%,
-      rgba(5, 15, 30, 0.25) 40%,
-      rgba(5, 15, 30, 0.80) 100%);
-}
-
-#hero-content {
-  position: relative;
-  z-index: 1;
-  text-align: center;
-  padding: 4rem 2rem;
-  max-width: 700px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1.2rem;
-}
-
 #hero-badge {
-  background: rgba(255, 215, 0, 0.18);
-  border: 1px solid rgba(255, 215, 0, 0.4);
+  background: rgba(255, 217, 0, 0.229);
+  border: 1px solid rgba(255, 217, 0, 0.847);
   color: var(--gold);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8), 0 2px 8px rgba(0, 0, 0, 0.9);
   border-radius: 20px;
   padding: 5px 16px;
   font-size: 0.82rem;
   font-weight: 600;
-}
-
-#hero-content h1 {
-  font-size: clamp(2rem, 5vw, 3.2rem);
-  font-weight: 800;
-  color: var(--bg);
-  line-height: 1.2;
-  letter-spacing: -0.03em;
-}
-
-#hero-accent {
-  color: var(--gold);
-}
-
-#hero-content p {
-  color: rgba(255, 255, 255, 0.82);
-  font-size: 1rem;
-  line-height: 1.7;
-  max-width: 520px;
 }
 
 #hero-btns {
@@ -160,7 +121,8 @@ nav {
 }
 
 #hero-note {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.812);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8), 0 2px 8px rgba(0, 0, 0, 0.9);
   font-size: 0.8rem;
 }
 

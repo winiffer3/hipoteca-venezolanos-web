@@ -35,15 +35,22 @@ body {
   flex-direction: column;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: 'Sora', system-ui, sans-serif;
   margin: 0;
   color: var(--text-h);
 }
 
-p { margin: 0; }
+p {
+  margin: 0;
+}
 
-a { text-decoration: none; transition: opacity 0.2s; }
+a {
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
 
 /* ────────── CLASES COMPARTIDAS ────────── */
 
@@ -62,23 +69,27 @@ a { text-decoration: none; transition: opacity 0.2s; }
 .page-hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to bottom,
-      rgba(5, 15, 30, 0.5) 0%,
-      rgba(5, 15, 30, 0.6) 100%);
 }
 
 .page-hero-content {
   position: relative;
   z-index: 1;
   text-align: center;
-  padding: 3rem 2rem;
+  padding: 4rem 2rem;
+  gap: 1.2rem;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .page-hero-content h1 {
   font-size: clamp(2rem, 4vw, 3rem);
   font-weight: 800;
-  color: #ffffff;
+  color: var(--bg);
   margin-bottom: 1rem;
+  line-height: 1.2;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8), 0 4px 16px rgba(0, 0, 0, 0.9);
 }
 
 .page-hero-content h1 span {
@@ -86,10 +97,12 @@ a { text-decoration: none; transition: opacity 0.2s; }
 }
 
 .page-hero-content p {
-  color: rgba(255, 255, 255, 0.75);
+  color: #ffffff;
   font-size: 1rem;
-  max-width: 500px;
+  max-width: 520px;
   margin: 0 auto;
+  line-height: 1.7;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8), 0 2px 8px rgba(0, 0, 0, 0.9);
 }
 
 /* ── trust-band ── */
