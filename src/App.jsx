@@ -11,12 +11,14 @@ import NotFound from './pages/NotFound'
 import Servicios from './pages/Servicios'
 import Privacidad from './pages/Privacidad'
 import WhatsAppButton from './components/WhatsAppButton'
+import ScrollToTop from './components/ScrollToTop'
 
 function App() {
 
   return (
     <>
       <Router>
+        <ScrollToTop />
         <Header />
         <NavBar />
         <Routes>
