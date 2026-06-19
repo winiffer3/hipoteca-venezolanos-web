@@ -190,8 +190,9 @@ export default function Contacto() {
               </div>
 
               <div className="form-group">
-                <label>¿En qué podemos ayudarte?</label>
+                <label htmlFor="servicio">¿En qué podemos ayudarte?</label>
                 <select
+                  id="servicio"
                   name="servicio"
                   value={form.servicio}
                   onChange={handleChange}
