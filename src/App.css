@@ -324,13 +324,13 @@ nav {
 
 #calc-result span {
   font-size: 0.9rem;
-  color: rgba(255, 255, 255, 0.85);
+  color: #ffffff;
 }
 
 #calc-result strong {
   font-size: 1.5rem;
   font-weight: 800;
-  color: var(--gold);
+  color: #ffffff;
 }
 
 /* ── TESTIMONIOS ── */
@@ -482,7 +482,7 @@ nav {
 }
 
 #cta-final p {
-  color: rgba(255, 255, 255, 0.65);
+  color: rgba(255, 255, 255, 0.85);
   font-size: 0.95rem;
   line-height: 1.7;
 }
@@ -531,7 +531,7 @@ nav {
 }
 
 #cta-note {
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.65);
   font-size: 0.8rem;
 }
 
@@ -944,14 +944,15 @@ footer {
 
 footer span {
   font-size: 0.78rem;
-  color: rgba(255, 255, 255, 0.38);
+  color: rgba(255, 255, 255, 0.65);
 }
+
 
 #footer-copy {
   width: 100%;
   text-align: center;
   font-size: 0.75rem;
-  color: rgba(255, 255, 255, 0.25);
+  color: rgba(255, 255, 255, 0.55);
   margin-top: 0.5rem;
 }
 
