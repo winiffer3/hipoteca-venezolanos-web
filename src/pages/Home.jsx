@@ -12,7 +12,7 @@ export default function Home() {
           <h1>Tu casa en España,<br />
             <span>sin vueltas y en tu idioma</span>
           </h1>
-          <p>Sabemos lo que es llegar de Venezuela y empezar de cero. 
+          <p>Sabemos lo que es llegar de Venezuela y empezar de cero.
             Te ayudamos a conseguir tu hipoteca en España.
           </p>
           <div id="hero-btns">
@@ -143,6 +143,13 @@ export default function Home() {
             <p className="testi-text">"Excelentes profesionales, te acompañan en todo el proceso hasta el final. Siempre buscando las mejores condiciones del mercado. Salió perfectamente la operación."</p>
           </div>
         </div>
+        <a href="https://g.co/kgs/woMS9Dy"
+          target="_blank"
+          rel="noopener noreferrer"
+          id="google-reviews-link"
+        >
+          Ver más reseñas en Google →
+        </a>
       </section>
       <FAQ />
       {/* CTA FINAL */}

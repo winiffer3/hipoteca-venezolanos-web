@@ -408,6 +408,20 @@ nav {
   font-style: italic;
 }
 
+#google-reviews-link {
+  display: block;
+  text-align: center;
+  margin-top: 2rem;
+  color: var(--gold);
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: opacity 0.2s;
+}
+
+#google-reviews-link:hover {
+  opacity: 0.8;
+}
+
 /* ── FAQ ── */
 #faq {
   padding: 4rem 2rem;
